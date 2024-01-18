@@ -1,7 +1,7 @@
 Statistics in Data Science
 ================
 
-# Points worth notcing & Correction of quizes
+# Before we start, remind yourself of the following poins
 
 Here I’ve listed some most important points to notice:  
 1. NEVER ACCEPT H0  
