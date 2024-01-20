@@ -11,8 +11,7 @@ regardless of the sample size
 happening  
 4. P(X = x) on any given points on a conti. distri. must be 0; we can
 only get the prob. within the interval  
-5. if given 2 set of nominal-level variables, we should use TABLE
-(contingency table?) rather than a boxplot since the latter requires an
+5. if given 2 set of nominal-level variables, we should use TABLE rather than a boxplot since the latter requires an
 at least ordinal-level data  
 6. distinguish bar chart from histogram:  
 (1) x-axis of a bar chart is categorical data, e.g., types, regions,
