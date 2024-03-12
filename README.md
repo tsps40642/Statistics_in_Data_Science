@@ -6,7 +6,10 @@ I focus on introducing hypothesis, assumptions, and coding for each of the stati
 We will go step by step to look deeper into statistics for data analysis.   
 
 The following is the outline and some bullet points I would like to mention in the corresponding section:  
-- BASIC    
+- BASIC
+    - Points worth notcing
+    - Basic probability theories
+    - Basic codes: read in the dataset  
 - BASIC DISTRIBUTION  
     - rbinom
     - dbinom
