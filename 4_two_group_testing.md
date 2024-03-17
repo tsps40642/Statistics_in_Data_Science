@@ -190,7 +190,8 @@ t.test(age ~ married, conf.level = 0.90)
 #### Check whether equal variance before t.test: Levene’s test
 
 H0: homogeneity  
-Ha: heterogeneity
+Ha: heterogeneity  
+(details are in the next chapter)
 
 ``` r
 library(car)
@@ -232,3 +233,25 @@ t.test(age ~ married, alternative = "two.sided")
 ``` r
 # var.equal = F is the default so don't need to type 
 ```
+
+# F distribution
+
+1.  Generally arises from a statistic that involves a ratio of
+    variances  
+2.  Generally no real-world interpretation  
+3.  Range: \[0, $∞$)  
+4.  Having 2 df’s
+
+``` r
+data_vec <- c(0.1, 1, 5, 10)
+probs <- c(0.1, 0.25, 0.75, 0.95)
+pf(data_vec, 1, 15) # gives cdf, df = 1 and 15 
+```
+
+    ## [1] 0.2438126 0.6668299 0.9590310 0.9935575
+
+``` r
+qf(probs, 1, 15)
+```
+
+    ## [1] 0.01633444 0.10533590 1.43206524 4.54307717
