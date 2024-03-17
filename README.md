@@ -11,10 +11,10 @@ The following is the outline and some bullet points I would like to mention in t
     - Basic probability theories
     - Basic codes: read in the dataset  
 - BASIC DISTRIBUTION  
-    - rbinom
-    - dbinom
-    - pbinom
-    - qbinom
+    - rbinom: generates random deviates  
+    - dbinom(vector of data): gives the probability density function  
+    - pbinom(vector of quantiles): gives the distribution function  
+    - qbinom(vector of probabilities): gives the quantile function  
     - how to get upper bound and lower bound for interval from the codes above   
 - ESTIMATION
     - Sample distribution vs. Sampling distribution
