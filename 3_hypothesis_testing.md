@@ -7,7 +7,9 @@ HYPOTHESIS TESTING
 
 1.  Set up 2 competing hypotheses
     - H0: status quo, thing want to defeat, old one, etc.  
-    - Ha: the claim we want to establish
+    - Ha: the claim we want to establish  
+    - Note that the hypotheses are for the process/population, so use
+      the parameters, not statistics
 2.  Sometimes how to to set up hypotheses might be tricky
     - e.g. we want to see whether the current strategy is useful or
       not  
