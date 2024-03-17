@@ -43,9 +43,11 @@ HYPOTHESIS TESTING
 2.  Ha isn’t associated with any specific value of μ greater than μ_0,
     so it’s not clear what distribution under Ha is the best one to use
     s.t. μ_a \> μ_0. Thus we can’t determine β  
-3.  Reducing α will increasing β \>\> there’s a trade off, consider the
+3.  Increasing n decrease both errors since more information is
+    collected  
+4.  Reducing α will increasing β \>\> there’s a trade off, consider the
     consequence of each error  
-4.  Since we never accept H0 \>\> we never make type II error directly
+5.  Since we never accept H0 \>\> we never make type II error directly
 
 ### Practical example
 
