@@ -19,20 +19,33 @@ ONEWAY ANOVA
     1)  if any nj \< 30, all Xj ~ N(., .)  
     2)  σ1 = σ2 = … = σk (equal variance assumption)
 
-#### Sampling distribution:
+#### Between-groups and within-groups
 
-F = MSB/MSW = ((SSB/k-1)/k-1)/((SSW/n-k)/n-k) ~ F(k-1, n-k)
+1.  SS_total = SS_between + SS_within = Total variation
+2.  df_total = df_between + df_within  
+3.  MS_between = SS_between/df_between  
+4.  MS_within = SS_within/df_within
+
+#### Sampling distribution
+
+F statistic = MS_between/MS_within = ((SSB/k-1)/k-1)/((SSW/n-k)/n-k) ~
+F(k-1, n-k)
 
 # Conduct oneway ANOVA
 
 ## State hypotheses
 
-Note that the followings are the two equivalent representations:
+Note that the followings are the two equivalent and interchangable
+representations:
 
 #### Test of relationships
 
 H0: no relationships  
-Ha: relationships
+- means that the hypothesized prob. distri. for Y for each of the levels
+of predictors are the same  
+Ha: relationships  
+- means that relation translate to the difference in means of Y
+depending on the level of X
 
 #### Test of means
 
@@ -94,7 +107,12 @@ Ha: residuals not ~ N(., .)
     normality assumption meet
     - We check normality of residuals  
     - Residual = actual - category mean = Y_ij - (Y-bar)\_j
-2.  Non-normal distributed residuals indicates there’s still signal in
+2.  Pooling all the data together and do the normality check
+    simultaneously for all groups has the advantages:
+    - Only need to do a single set of test  
+    - can do the test with all the data we have \>\> more powerful test
+      of the assumption
+3.  Non-normal distributed residuals indicates there’s still signal in
     residuals which we don’t want to miss
 
 ``` r
@@ -169,7 +187,8 @@ Then “which” pairs have the relationship and “how many differ” ??
 #### Tukey’s HSD test
 
 H0: no relationship i.e. μi = μj, for each i! = j being checked  
-Ha: relationship i.e. μi != μj
+Ha: relationship i.e. μi != μj  
+if p-value \< α, reject H0 for that pair
 
 ##### Assumptions: (same as ANOVA since Tukey’s test is based on accpeting ANOVA Ha)
 
