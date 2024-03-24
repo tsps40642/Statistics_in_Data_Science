@@ -37,6 +37,11 @@ pnorm(975, 1000, 20/sqrt(5))
 # t.test(data$column_name, conf.level = ???)
 
 library(readxl)
+```
+
+    ## Warning: package 'readxl' was built under R version 4.3.3
+
+``` r
 salmon <- read_excel('C:/Users/Yvonne/Desktop/UMN Courses/6121/Quiz-Salmon.xlsx')
 t.test(salmon$Weight, conf.level = 0.9)
 ```
@@ -57,6 +62,8 @@ Or in the long way, build by yourself
 
 ``` r
 # note that we need to use t-distribution since unknown σ
+# note that we use se of sampling distribution of the βi_hat 
+
 sal_mean <- mean(salmon$Weight)
 sal_se <- sd(salmon$Weight)/sqrt(length(salmon$Weight))
 ub <- sal_mean + qt(0.95, df = (length(salmon$Weight)-1))*sal_se
