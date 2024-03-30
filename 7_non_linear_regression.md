@@ -1,7 +1,7 @@
 NON-LINEAR REGRESSION
 ================
 
-## Polynomial Regression
+# Polynomial Regression
 
 ``` r
 library(readxl)
