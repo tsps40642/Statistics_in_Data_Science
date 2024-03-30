@@ -157,15 +157,10 @@ H1: at least one is not 0; relationship
 
 And p-value, R-squared, … for the global test is not going to change.
 
-1.  Interpretation of the global p-value: There is a chance of XX% that
-    we would get a sample result as extreme as the one we obtain if
-    there’s no relationship between Y and any of predictors. DON’T USE
-    P-VALUE AS MODEL SELECTION SINCE IT GIVES THE COMPARISON OF K
-    PREDICTORS TO NONE.  
-2.  Note that to determine whether there’s difference between type and
-    Y, we need to look at the lowest p-value since even if there are
-    other higher p-values, as long as we have one type suggests
-    difference exists, we would conclude difference exists.
+Interpretation of the global p-value: There is a chance of XX% that we
+would get a sample result as extreme as the one we obtain if there’s no
+relationship between Y and any of predictors. DON’T USE P-VALUE AS MODEL
+SELECTION SINCE IT GIVES THE COMPARISON OF K PREDICTORS TO NONE.
 
 ### p-value for individual predictor (individual T-test)
 
@@ -174,3 +169,8 @@ categorical variable has relationship with Y.
 
 H0: type i has no difference with the baseline type  
 H1: type i has difference with the baseline type
+
+Use of the individual p-value: Note that to determine whether there’s
+difference between type and Y, we need to look at the lowest p-value
+since even if there are other higher p-values, as long as we have one
+type suggests difference exists, we would conclude difference exists.
