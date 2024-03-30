@@ -1,6 +1,8 @@
 CATEGORICAL PREDICTORS
 ================
 
+# Codes
+
 ``` r
 library(readxl)
 ```
@@ -119,7 +121,7 @@ summary(p_fit3_lm)
 4 = tray  
 5 = plate
 
-## Interpretation
+# Interpretation
 
 ### β0, βi
 
