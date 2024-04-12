@@ -7,8 +7,20 @@ LINEAR REGRESSION
 
 1.  random sampling  
 2.  stability over time  
-3.  εi ~ N(mean = 0, sd = σ) constant (over all possible values of the
-    predictors)
+3.  εi ~ N(mean = 0, sd = σ) constant over all possible values of the
+    predictors
+
+### More detailed assupmtions of the lm
+
+1.  The regression model is linear, correctly specified, and has an
+    additive error term  
+2.  The error term has a zero population mean  
+3.  All explanatory variables are uncorrelated with the error term
+4.  Observations of the error term are uncorrelated with each other (no
+    serial correlation)  
+5.  The error term has a constant variance i.e. no heteroskedasticity  
+6.  No explanatory variable is a perfect linear function of any other
+    explanatory variables, i.e. no perfect multicollinearity
 
 ## State the linear model
 
