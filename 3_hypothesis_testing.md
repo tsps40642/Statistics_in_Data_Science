@@ -158,6 +158,7 @@ qqline(x, col = "blue")
 ``` r
 # Goodness of fit test: Shapiro-Wil test here
 # to the extent that Ha = TRUE, W has a high value, and p-value is correspondingly low
+# H0: normality / Ha: not normality
 # 0 < W < 1
 shapiro.test(x)
 ```
