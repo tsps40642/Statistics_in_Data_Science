@@ -112,7 +112,7 @@ table(vacc$Completed)
     ## 33 17
 
 ``` r
-# prop.test(the amount of the category we're interested in, sample size, alternative)
+# prop.test(the amount of the category we're interested in, sample size, alternative, p0 in null)
 # prop.test(17, 50, alternative = "greater"/"two.sided"/"less", p = 0.1)
 prop.test(17, 50, alternative = "greater", p = 0.1)
 ```
