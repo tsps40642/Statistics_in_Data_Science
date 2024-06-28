@@ -120,7 +120,8 @@ BASIC
     1.  Expectation:
         - Estimated by y_bar = (Σ(i=1 to n) y_i)/n for observations y_1,
           …, y_n  
-        - E(X+Y) = E(X) + E(Y)  
+        - E(X+Y) = E(X) + E(Y) (note that X, Y can be either indep. or not)
+        - E(XY) = E(X) * E(Y) if X, Y indep.  
         - E(aY) = a\*E(Y), a = const.  
     2.  Variance:
         - Estimated by (Σ(i=i to n) (y_i-y_bar)<sup>2</sup>)/n  
