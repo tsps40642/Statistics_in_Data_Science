@@ -41,8 +41,7 @@ representations:
 #### Test of relationships
 
 H0: no relationships  
-- means that the hypothesized prob. distri. for Y for each of the levels
-of predictors are the same  
+- means that the hypothesized prob. distri. for Y for each of the levels of predictors are the same   
 Ha: relationships  
 - means that relation translate to the difference in means of Y
 depending on the level of X
