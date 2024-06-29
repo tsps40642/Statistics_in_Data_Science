@@ -65,7 +65,7 @@ Assumption:
 1. Random sampling  
 2. Stability over time  
 3. Ei \>= 5 for all i = 1, …, k, where Ei is the expected count in
-category i under H0 = n\*p0
+category i  
 
 Sampling distribution:  
 X^2 = sum_k(((Oi-Ei)^2 / Ei)) ~ chisq(df = k - 1) for all X^2 \>= 0
