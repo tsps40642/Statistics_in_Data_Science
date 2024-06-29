@@ -45,7 +45,7 @@ from a specific distribution, and chi-square has the property to do this
 under the normality of residual
 
 assumption:  
-z-score ~ N(0, σ) and sum_k(z-score) ~ chisq(df = k - 1),  
+z-score ~ N(0, σ) and sum_k(z-score^2) ~ chisq(df = k - 1),  
 thus, with the assumption of residuals ~ N(0, σ),  
 we use sum_k(residuals^2) ~ chisq(df = k - 1) for chi-square test
 
