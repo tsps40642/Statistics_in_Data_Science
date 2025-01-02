@@ -93,7 +93,7 @@ BASIC
         Basically it’s saying that using n–1 in variance for a sample
         helps to make sure the number derived is a better representation
         of the whole population)  
-    3.  Relative standing: z-score (unit-free), percentile (Q1, Q2, Q3)
+    3.  Relative standing: z-score (unit-free), percentile
 
 8.  Empirical rule: 68-95-99.7 for bell-shaped distributions
 
