@@ -59,8 +59,8 @@ time = β0 + β1*diam + β2*type1 + β3*type2 + β4*type3 + β5*type4 +
 β6*(diam*type1) + β7*(diam*type2) + β8*(diam*type3) + β9*(diam\*type4) +
 ε
 
-plate(type 1): β0 + β1*diam + ε  
-bowl(type 2): (β0+β2) + (β1+β6)*diam + ε
+plate(type 5): β0 + β1*diam + ε  
+bowl(type 1): (β0+β2) + (β1+β6)*diam + ε
 
 #### Intercept items
 
