@@ -147,8 +147,8 @@ t.test((StoreA-StoreB), alternative = "two.sided")
 
 ## Testing for independent samples, EQUAL / UNEQUAL variances
 
-H0: (μ1 - μ2) = (μ1 - μ2)0  
-Ha: (μ1 - μ2) \> or \< or != (μ1 - μ2)0
+H0: (μ1 - μ2) = 0 (professor denotes (μ1 - μ2) = (μ1 - μ2)_0)  
+Ha: (μ1 - μ2) > or < or != 0 (professor denotes (μ1 - μ2) \> or \< or != (μ1 - μ2)_0)  
 
 #### Assumptions
 
